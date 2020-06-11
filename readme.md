@@ -1,6 +1,6 @@
 # Recursive Dice
 
-This script is a really awful way to write a dice rolld in posix compliant shell tha can parse dnd dice notation.
+This script is a really awful way to write a dice roller in posix compliant shell tha can parse dnd dice notation.
 
 ## Install
 
@@ -31,4 +31,4 @@ this will rolld again 3 dice each with 6 sides but will add 3 to each side
  
 
 ## Okay, but why tho?
-at first it was "muh posix meme", then it was "muh minimalism", then it was didactic but at the end this terrible thing was definitely driven by self hate, otherwise i would had stopped at using a while loop...
+at first it was "muh posix" meme, then it was "muh minimalism", then it was didactic but at the end this terrible thing was definitely driven by self hate, otherwise i would had stopped at using a while loop...
