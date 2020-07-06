@@ -28,7 +28,10 @@ this will rolld 3 dice each with 6 sides
 rolld 3d6 +3
 ```
 this will rolld again 3 dice each with 6 sides but will add 3 to each side
- 
+
 
 ## Okay, but why tho?
 at first it was "muh posix" meme, then it was "muh minimalism", then it was didactic but at the end this terrible thing was definitely driven by self hate, otherwise i would had stopped at using a while loop...
+
+
+<img src="./posixshellmeme.png" width="500">
