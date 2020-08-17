@@ -1,11 +1,12 @@
 #!/bin/sh
+_echo () { printf %s\\n "$*" ; }
 i=0
 dice="${1%%d*}"
 sides="${1##*d}"
 plusnum="${2##+}"
-_Roll_Dice() {
+_Roll_Dice () {
 	[ $i -lt "$dice" ] && { i="$(( i + 1 ))" ;
-		[ -z "$plusnum" ] && echo "d$sides: $(shuf -i 1-"$sides" -n 1)" || echo "d$sides: $(($(shuf -i 1-"$sides" -n 1)+plusnum))";
+		[ -z "$plusnum" ] && _echo "d$sides: $(shuf -i 1-"$sides" -n 1)" || _echo "d$sides: $(($(shuf -i 1-"$sides" -n 1)+plusnum))";
 		_Roll_Dice; } || exit 0
 	}
 _Roll_Dice
